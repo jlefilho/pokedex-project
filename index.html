@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/script.js" defer></script>
+</head>
+<body>
+    <section>
+
+        <img id="pokemonImg" src="" alt="pokemonImg">
+        <img class="pokedex" src="/img/pokedex.png" alt="Pokedex">
+        <h1 class="pokemonData">
+            
+            <span class="pokemonID"></span> 
+            <span class="pokemonName"></span>
+        </h1>
+
+        <form class="form">
+            <input type="search" class="inputSearch" placeholder="Name or ID" required>
+        </form>
+        <button class="button btnInfo">Info</button>
+        <div class="buttons">
+            <button class="button btnPrev">&lt; Prev</button>
+            <button class="button btnNext">Next &gt; </button>
+        </div>
+        <div class="pokemonInfo">
+                      
+            <span class="pokemonInfoName"></span>
+            <span class="pokemonInfoID"></span>
+            <label>Type: </label><span class="pokemonInfoType"></span>
+            <label>Abilities: </label><span class="pokemonInfoAbilities"></span>
+            <label>Stats:</label><span class="pokemonInfoStats"></span>
+
+        </div>
+           
+    </section>
+    
+</body>
+</html>
